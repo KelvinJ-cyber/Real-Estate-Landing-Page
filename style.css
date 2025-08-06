@@ -344,3 +344,152 @@ body {
   border-radius: 25px 25px 0px 0px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+
+.section-parent {
+  background:linear-gradient(135deg, #0e0b05 0%, #2d1e05 100%);
+
+}
+
+.section-child {
+  max-width: 500px;
+  margin: auto;
+  padding: 3rem 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.h2-text {
+  font-size: 50px;
+  font-weight:light;
+  line-height: 100%;
+  letter-spacing: -1.26px;
+  margin-bottom: 50px;
+  font-family: "DMSans";
+}
+.section-text {
+  font-size: 20px;
+  color: #ffff;
+  margin-top: 1rem;
+  line-height: 1.6;
+  font-weight:lighter;
+  opacity: 60%;
+  font-family: "DM Sans";
+}
+.button {
+  background-color: #ffae00;
+  color: #000;
+  padding: 12px 24px;
+  border: none;
+   border-radius: 0 24px 0 0;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e89c00;
+}
+
+.line{
+  display: inline-block;
+  width: 88px;
+  height: 4px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 172, 18, 1),
+    rgba(0, 0, 0, 1)
+  );
+  margin-right: 16px;
+  border-radius: 2px;
+}
+
+.testimonial-section {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-container {
+  max-width: 1069px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+
+.quote-line {
+   display: inline-block;
+  width: 500px;
+  height: 4px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 172, 18, 1),
+    rgba(0, 0, 0, 1)
+  );
+  margin-right: 16px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+
+.quote-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #000;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  text-align: left;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.client-info .name {
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+}
+
+.client-info .role {
+  color: #888;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+/* Highlighted (middle) card */
+.card.active {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 20px;
+  padding: 35px 65px;
+}
+
+.card.active .client-info .name {
+  color: #fff;
+}
+
+.card.active .client-info .role {
+  color: #ccc;
+}
+
