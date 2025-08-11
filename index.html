@@ -8,11 +8,18 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -275,99 +282,105 @@
     </section>
 
     <div class="testimonial-section">
-  <div class="testimonial-container">
-    <!-- Center Quote -->
-    <div class="quote">
-      <span class="quote-line"></span>
-      <p class="quote-text">
-        “Certe, inquam, pertinax non existimant oportere exquisitis rationibus
-        conquisitis de quo enim ipsam. Torquem detraxit hosti et quidem faciunt, ut aut.”
-      </p>
+      <div class="testimonial-container">
+        <!-- Center Quote -->
+        <div class="quote">
+          <span class="quote-line"></span>
+          <p class="quote-text">
+            “Certe, inquam, pertinax non existimant oportere exquisitis
+            rationibus conquisitis de quo enim ipsam. Torquem detraxit hosti et
+            quidem faciunt, ut aut.”
+          </p>
+        </div>
+
+        <!-- Bottom Cards -->
+        <div class="testimonial-cards">
+          <!-- Left card -->
+          <div class="card">
+            <img src="asset/home.png" alt="Client photo" />
+            <div class="client-info">
+              <p class="name">Lara Madrigal</p>
+              <p class="role">Client</p>
+            </div>
+          </div>
+
+          <!-- Center card (highlighted) -->
+          <div class="card active">
+            <img src="asset/home.png" alt="Client photo" />
+            <div class="client-info">
+              <p class="name">Lara Madrigal</p>
+              <p class="role">Client</p>
+            </div>
+          </div>
+
+          <!-- Right card -->
+          <div class="card">
+            <img src="asset/home.png" alt="Client photo" />
+            <div class="client-info">
+              <p class="name">Lara Madrigal</p>
+              <p class="role">Client</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- Bottom Cards -->
-    <div class="testimonial-cards">
-      <!-- Left card -->
-      <div class="card">
-        <img src="asset/home.png"alt="Client photo">
-        <div class="client-info">
-          <p class="name">Lara Madrigal</p>
-          <p class="role">Client</p>
-        </div>
-      </div>
-
-      <!-- Center card (highlighted) -->
-      <div class="card active">
-        <img src="asset/home.png" alt="Client photo">
-        <div class="client-info">
-          <p class="name">Lara Madrigal</p>
-          <p class="role">Client</p>
-        </div>
-      </div>
-
-      <!-- Right card -->
-      <div class="card">
-        <img src="asset/home.png" alt="Client photo">
-        <div class="client-info">
-          <p class="name">Lara Madrigal</p>
-          <p class="role">Client</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
- <footer class="footer">
+    <footer class="footer">
+      <div class="main">
         <div class="footer-header">
-            <h1 class="footer-title">
-                Make your dreams a <span class="highlight">reality</span>
-            </h1>
-            <button class="cta-button">
-                Work with us
-                <span class="material-icons">arrow_forward</span>
-            </button>
+          <h1 class="footer-title">
+            Make your dreams a <span class="highlight">reality</span>
+          </h1>
+
+          <button class="cta-button1">
+            Work with us
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
         </div>
+
+        <hr style="border: none; height: 0.5px; background-color: #333" />
 
         <div class="footer-content">
-            <div class="footer-left">
-                <div class="logo">
-                    <span class="material-icons logo-icon">location_on</span>
-                     
-                </div>
-                <div class="social-icons">
-                    <span class="material-icons social-icon">facebook</span>
-                    <span class="material-icons social-icon">person</span>
-                    <span class="material-icons social-icon">camera_alt</span>
-                </div>
+          <div class="footer-left">
+            <div class="logo">
+              <a class="navbar-brand mobile-logo" href="#">
+                <img src="asset/logo.png" alt="" class="logo-img-m" />
+              </a>
+            </div>
+            <div class="social-icons">
+              <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+              <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </div>
+          </div>
+
+          <div class="footer-columns">
+            <div class="footer-column">
+              <div class="column-heading">Column Heading</div>
+              <a href="#" class="footer-link">Link goes here</a>
+              <a href="#" class="footer-link">Link goes here</a>
+              <a href="#" class="footer-link">Link goes here</a>
+              <a href="#" class="footer-link">Link goes here</a>
             </div>
 
-            <div class="footer-columns">
-                <div class="footer-column">
-                    <div class="column-heading">Column Heading</div>
-                    <a href="#" class="footer-link">Link goes here</a>
-                    <a href="#" class="footer-link">Link goes here</a>
-                    <a href="#" class="footer-link">Link goes here</a>
-                    <a href="#" class="footer-link">Link goes here</a>
-                </div>
-
-                <div class="footer-column">
-                    <div class="column-heading">Column Heading</div>
-                    <a href="#" class="footer-link">Link goes here</a>
-                    <a href="#" class="footer-link">Link goes here</a>
-                    <a href="#" class="footer-link">Link goes here</a>
-                    <a href="#" class="footer-link">Link goes here</a>
-                </div>
-
-                <div class="footer-column">
-                    <div class="column-heading">Column Heading</div>
-                    <a href="#" class="footer-link">Link goes here</a>
-                    <a href="#" class="footer-link">Link goes here</a>
-                    <a href="#" class="footer-link">Link goes here</a>
-                    <a href="#" class="footer-link">Link goes here</a>
-                </div>
+            <div class="footer-column">
+              <div class="column-heading">Column Heading</div>
+              <a href="#" class="footer-link">Link goes here</a>
+              <a href="#" class="footer-link">Link goes here</a>
+              <a href="#" class="footer-link">Link goes here</a>
+              <a href="#" class="footer-link">Link goes here</a>
             </div>
+
+            <div class="footer-column">
+              <div class="column-heading">Column Heading</div>
+              <a href="#" class="footer-link">Link goes here</a>
+              <a href="#" class="footer-link">Link goes here</a>
+              <a href="#" class="footer-link">Link goes here</a>
+              <a href="#" class="footer-link">Link goes here</a>
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
-
   </body>
 </html>
