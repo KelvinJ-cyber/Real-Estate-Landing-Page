@@ -32,7 +32,8 @@ body {
   padding: 12px 28px;
   background-color: #ffa600;
   border: none;
-  border-radius: 0 24px 0 0;
+  /* border-radius: 0 24px 0 0; */
+  border-radius: 10px;
   font-size: 16px;
   font-weight: 300;
   color: #000;
@@ -102,6 +103,7 @@ body {
   line-height: 100%;
   letter-spacing: -0.5px;
   font-size: 20px;
+  border-radius: 10px 10px 0px 0px; 
 }
 
 .unknown i {
@@ -272,6 +274,8 @@ body {
   max-width: 1200px;
   width: 100%;
   flex-wrap: wrap;
+  margin-left: 900px;
+    margin-top: 50px;
 }
 .content2 {
   display: flex;
@@ -279,6 +283,8 @@ body {
   gap: 3rem;
   max-width: 1200px;
   width: 100%;
+  margin-right: 750px;
+  margin-top: 50px;
   /* flex-wrap: wrap; */
 }
 
@@ -381,6 +387,7 @@ body {
   align-items: center;
   gap: 8px;
   transition: background 0.3s ease;
+  border-radius: 10px;
 }
 
 .button:hover {
@@ -499,6 +506,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 25px;
 }
 
 .footer-title {
@@ -517,6 +525,7 @@ body {
   align-items: center;
   gap: 8px;
   transition: background 0.3s ease;
+  border-radius: 10px;
 }
 
 .main {
